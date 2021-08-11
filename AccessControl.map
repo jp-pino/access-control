@@ -1,0 +1,55 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+prtc_get_time                                                     0x0500       2
+prtc_get_date                                                     0x0502       2
+Command_2                                                         0x0504       1
+Response_1                                                        0x0505       1
+Response_2                                                        0x0506       1
+CheckSum_1                                                        0x0507       1
+CheckSum_2                                                        0x0508       1
+sumLO                                                             0x0509       1
+sumHI                                                             0x050A       1
+ErrorCode                                                         0x050B       2
+car0                                                              0x050D       8
+id_menu                                                           0x0515       2
+menu_lock                                                         0x0517       1
+h                                                                 0x0518       1
+m                                                                 0x0519       1
+s                                                                 0x051A       1
+d                                                                 0x051B       1
+mo                                                                0x051C       1
+y                                                                 0x051D       1
+ID_aux                                                            0x051E       1
+ID_aux_del                                                        0x051F       1
+print_aux                                                         0x0520      30
+NombreArchivo                                                     0x053E      15
+_seed                                                             0x054D       4
+status                                                            0x0551       1
+timer1                                                            0x0552       1
+timer2                                                            0x0553       1
+card_type                                                         0x0554       1
+pv_S101000B000                                                    0x0555       1
+FatFs                                                             0x0556       2
+Fsid                                                              0x0558       2
+Drive                                                             0x055A       1
+fatstr_S1020016000                                                0x055B       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+registry                                                          0x0000      20
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+cursor                                                            R5           1
+CommandStart_1                                                    R4           1
+CommandStart_2                                                    R7           1
+DeviceID_1                                                        R6           1
+DeviceID_2                                                        R9           1
+Parameter_1                                                       R8           1
+Parameter_2                                                       R11          1
+Parameter_3                                                       R10          1
+Parameter_4                                                       R13          1
+Command_1                                                         R12          1
